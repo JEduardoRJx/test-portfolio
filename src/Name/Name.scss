@@ -2,13 +2,23 @@
   height: 100%;
   width: 100%;
   display:flex;
-  align-items: center;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .name {
   color: #141414;
   font-size: 5em;
   font-weight: 800;
+}
+
+.name, 
+.name-software-developer {
   margin-right: 10%;
+}
+
+.name-software-developer {
+  font-size: 3em;
+  font-weight: 100;
 }
