@@ -1,21 +1,28 @@
 .name-wrapper {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display:flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  z-index: 1;
+  position: fixed;
+  // background-color: transparent;
+  mix-blend-mode: difference;
 }
 
 .name {
-  color: #141414;
   font-size: 4em;
   font-weight: 800;
+  // mix-blend-mode: difference;
+  // filter: invert(100%);
 }
 
 .name, 
 .name-software-developer {
   margin-right: 5%;
+  color: white;
+  // position: fixed;
 }
 
 .name-software-developer {
