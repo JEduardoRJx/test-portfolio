@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.scss'
 import Name from '../Name/Name'
+import About from '../About/About'
 
 class App extends Component {
   constructor() {
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <main>
         <Name />
+        <About />
       </main>
     )
   }
