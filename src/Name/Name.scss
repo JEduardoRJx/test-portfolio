@@ -14,15 +14,13 @@
 .name {
   font-size: 4em;
   font-weight: 800;
-  // mix-blend-mode: difference;
-  // filter: invert(100%);
+  // mix-blend-mode: screen;
 }
 
 .name, 
 .name-software-developer {
   margin-right: 5%;
   color: white;
-  // position: fixed;
 }
 
 .name-software-developer {
