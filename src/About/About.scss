@@ -4,21 +4,18 @@
   width: 100%;
   display: flex;
   align-items: center;
-  // border-top: blue solid 3px;
-  // clip: rect(auto, auto, auto, auto);
   color: white;
   mix-blend-mode: difference;
 
 }
 
 .description-wrapper {
-  width: 500px;
-  margin-left: 10%;
+  width: 40%;
+  margin-left: 5%;
+  // background-color: blue;
 }
 
 p {
-  // color: white;
-  // background-color: green;
   line-height: 2;
   font-size: 1.5em;
 }
