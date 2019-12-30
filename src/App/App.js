@@ -4,7 +4,7 @@ import MainBackGrnd from '../MainBackGrnd/MainBackGrnd'
 import MtnCover from '../MtnCover/MtnCover'
 import Name from '../Name/Name'
 import About from '../About/About'
-import InfoPage from '../InfoPage/InfoPage'
+import ProjectCont from '../ProjectCont/ProjectCont'
 import NightSky from '../NightSky/NightSky.js'
 
 class App extends Component {
@@ -16,12 +16,11 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    const main = document.querySelector('main')
-    main.addEventListener('scroll', (event) => {
-      console.log("hey", event)
-    })
+    // const main = document.querySelector('main')
+    // main.addEventListener('scroll', (event) => {
+    //   console.log("hey", event)
+    // })
   }
-
 
   render = () => {
     return (
@@ -29,9 +28,9 @@ class App extends Component {
         <MainBackGrnd />
         <Name handleScroll={this.handleScroll} />
         <MtnCover handleScroll={this.handleScroll} />
-        <About />
-        <InfoPage />
-        <NightSky />
+        {/* <About /> */}
+        {/* <ProjectCont /> */}
+        {/* <NightSky /> */}
       </main>
     )
   }
